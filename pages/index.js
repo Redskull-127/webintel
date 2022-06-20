@@ -33,7 +33,7 @@ export default function Home() {
           />
           <title>WebIntel</title>
           <meta name="description" content="Get intel" />
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/Assets/webintel.png" />
         </Head>
       </div>
     </>
