@@ -74,8 +74,9 @@ export default function NavBar() {
           <button
             className="btn btn-outline-success"
             onClick={(e) => {
-              const card = document.getElementById("card");
-              card.style.display = "flex";
+              if(document.getElementById("card")){
+                document.getElementById("card").style.display = "flex";
+              }
               logg();
             }}
           >
