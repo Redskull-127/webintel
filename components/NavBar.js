@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import styles from "../styles/NavBar.module.css";
 import React, { useState, useEffect } from "react";
 
